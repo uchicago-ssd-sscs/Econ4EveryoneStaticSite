@@ -1,0 +1,8 @@
+# Source zips from the researchers stay local only; build_site.py turns them into site/
+*.zip
+
+# Loose copy of candy-market extracted at the root; the real one lives in site/candy-market/
+/index.html
+/manifest.json
+
+__pycache__/
